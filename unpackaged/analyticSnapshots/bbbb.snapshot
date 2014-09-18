@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>dddddddddddddddddddddddd</description>
+    <groupColumn>ACCOUNT_NAME</groupColumn>
+    <name>bb</name>
+    <runningUser>feedback@brainengine.net</runningUser>
+    <sourceReport>unfiled$public/bb</sourceReport>
+    <targetObject>Opportunity_Snapshot__c</targetObject>
+</AnalyticSnapshot>

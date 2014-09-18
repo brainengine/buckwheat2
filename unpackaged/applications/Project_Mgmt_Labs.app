@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>Getting_Started</defaultLandingTab>
+    <description>Milestones PM - Project Planning and Task Management Application - Force.com Labs</description>
+    <label>Milestones PM</label>
+    <tab>standard-Chatter</tab>
+    <tab>Getting_Started</tab>
+    <tab>Summary</tab>
+    <tab>Milestone1_Project__c</tab>
+    <tab>Milestone1_Milestone__c</tab>
+    <tab>Milestone1_Task__c</tab>
+    <tab>Milestone1_Time__c</tab>
+    <tab>Milestone1_Expense__c</tab>
+    <tab>Milestone1_Log__c</tab>
+    <tab>Milestone_Calendar</tab>
+    <tab>Milestone1_Import_Project_Template</tab>
+    <tab>standard-report</tab>
+    <tab>standard-Dashboard</tab>
+    <tab>Master__c</tab>
+    <tab>BrainEngine</tab>
+    <tab>BrainEngine2</tab>
+    <tab>Legal_Documents__c</tab>
+    <tab>IDE</tab>
+    <tab>Editor</tab>
+    <tab>Code_Review__c</tab>
+    <tab>m</tab>
+    <tab>m2</tab>
+    <tab>TblDevAssumptions__c</tab>
+    <tab>Promo_Codes__c</tab>
+    <tab>Sample_Object__c</tab>
+    <tab>dsfs__DocuSign_Envelope__c</tab>
+    <tab>dsfs__DocuSign_Envelope_Document__c</tab>
+</CustomApplication>

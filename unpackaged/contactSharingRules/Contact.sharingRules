@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContactSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>CON</fullName>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>Level__c</field>
+            <operation>equals</operation>
+            <value>Tertiary</value>
+        </criteriaItems>
+        <contactAccessLevel>Edit</contactAccessLevel>
+        <name>CON</name>
+    </criteriaBasedRules>
+    <ownerRules>
+        <fullName>CC1</fullName>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+        <contactAccessLevel>Read</contactAccessLevel>
+        <name>C1</name>
+    </ownerRules>
+</ContactSharingRules>

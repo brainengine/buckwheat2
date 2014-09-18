@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CampaignSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>CA</fullName>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>Status</field>
+            <operation>equals</operation>
+            <value>Aborted</value>
+        </criteriaItems>
+        <campaignAccessLevel>All</campaignAccessLevel>
+        <name>CA</name>
+    </criteriaBasedRules>
+    <ownerRules>
+        <fullName>CCC2</fullName>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+        <campaignAccessLevel>Read</campaignAccessLevel>
+        <name>C2A</name>
+    </ownerRules>
+</CampaignSharingRules>

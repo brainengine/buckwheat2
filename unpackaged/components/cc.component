@@ -1,0 +1,8 @@
+﻿<apex:component >
+<!-- Begin Default Content REMOVE THIS 9999888888888888889999999999 -->
+<h1>Congratulations</h1>
+  This is your new Component: cc
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+<!-- End Default Content REMOVE THIS -->
+<b>Hello World!</b>
+</apex:component>

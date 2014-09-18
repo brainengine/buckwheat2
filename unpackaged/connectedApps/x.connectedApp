@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>x@x.com</contactEmail>
+    <label>x</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:52286/osfdc.aspx</callbackUrl>
+        <consumerKey>3MVG9yZ.WNe6byQClGHTtaxKN62BMs69t9Ljj9.ExPm2Ebqzp_9xNc_zau5p29wRmJAQs4MWkbX8cu5thFAwS</consumerKey>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>
