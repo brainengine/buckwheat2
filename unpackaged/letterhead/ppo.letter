@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letterhead xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <backgroundColor>#000000</backgroundColor>
+    <bodyColor>#FF6600</bodyColor>
+    <bottomLine>
+        <color>#000000</color>
+        <height>0</height>
+    </bottomLine>
+    <description>ppppppppppThis is a generic template for Letterhead.  With this template, you may adjust the default elements and values and add new elements and values.</description>
+    <footer>
+        <backgroundColor>#000000</backgroundColor>
+        <height>0</height>
+        <horizontalAlignment>Center</horizontalAlignment>
+        <verticalAlignment>Middle</verticalAlignment>
+    </footer>
+    <header>
+        <backgroundColor>#000000</backgroundColor>
+        <height>0</height>
+        <horizontalAlignment>Center</horizontalAlignment>
+        <verticalAlignment>Middle</verticalAlignment>
+    </header>
+    <middleLine>
+        <color>#000000</color>
+        <height>0</height>
+    </middleLine>
+    <name>pp</name>
+    <topLine>
+        <color>#000000</color>
+        <height>0</height>
+    </topLine>
+</Letterhead>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pooling Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pooling Plans</value>
+    </caseValues>
+    <fields>
+        <label><!-- Data --></label>
+        <name>Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lines Included --></label>
+        <name>Lines_Included__c</name>
+    </fields>
+    <fields>
+        <label><!-- MRC --></label>
+        <name>MRC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minutes --></label>
+        <name>Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Pooling Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Plan Qty --></label>
+        <name>Plan_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pooling Type --></label>
+        <name>Pooling_Type__c</name>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation><!-- Enterprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Business</masterLabel>
+            <translation><!-- Small Business --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rate Plan Name --></label>
+        <name>Rate_Plan_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

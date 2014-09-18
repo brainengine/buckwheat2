@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Revision Comment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Revision Comments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Character --></label>
+        <name>Character__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code Revision --></label>
+        <name>Code_Revision__c</name>
+        <relationshipLabel><!-- Revision Comments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- End --></label>
+        <name>End__c</name>
+    </fields>
+    <fields>
+        <label><!-- GUID --></label>
+        <name>GUID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line --></label>
+        <name>Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start --></label>
+        <name>Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Revision Comments --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Revision Note Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

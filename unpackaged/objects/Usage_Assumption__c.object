@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Dart Leveraged 9.29.12</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Avg_Per_User__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Avg Per User</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>B2B_Standard__c</fullName>
+        <externalId>false</externalId>
+        <label>B2B Standard</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Usage Assumptions</relationshipLabel>
+        <relationshipName>Usage_Assumptions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Type_of_Usage__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Usage</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Usage_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Usage Notes</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Value__c</fullName>
+        <externalId>false</externalId>
+        <label>Value</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Usage Assumption</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Avg_Per_User__c</columns>
+        <columns>B2B_Standard__c</columns>
+        <columns>Opportunity__c</columns>
+        <columns>Type_of_Usage__c</columns>
+        <columns>Usage_Notes__c</columns>
+        <columns>Value__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>A-{00000}</displayFormat>
+        <label>Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Usage Assumptions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Billable_MOU_Peak_Minutes_Restriction</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( AND(Type_of_Usage__c =&apos;Billable MOU (Peak Minutes)&apos;,OR(Avg_Per_User__c &lt;0,Avg_Per_User__c &gt; 500)) , true, false)</errorConditionFormula>
+        <errorMessage>Billable MOU (Peak Minutes) must be between 0 and 500.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Domestic_MOU_All_Minutes_Restriction</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( AND(Type_of_Usage__c =&apos;Domestic MOU (All Minutes)&apos;,OR(Avg_Per_User__c &lt;300,Avg_Per_User__c &gt; 1200)) , true, false)</errorConditionFormula>
+        <errorMessage>Domestic MOU (All Minutes) must be greater than 300 and less than 1200.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Domestic_WebConnect_MB</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( AND(Type_of_Usage__c =&apos;Domestic WebConnect MB&apos;,OR(Avg_Per_User__c &lt;B2B_Standard__c * 0.7 ,Avg_Per_User__c &gt; B2B_Standard__c * 1.3)) , true, false)</errorConditionFormula>
+        <errorMessage>Domestic WebConnect MB must be 30% from average.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Int_LD_MOU_Restriction</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( AND(Type_of_Usage__c =&apos;Int. LD MOU&apos;,OR(Avg_Per_User__c &lt;0,Avg_Per_User__c &gt; 10)) , true, false)</errorConditionFormula>
+        <errorMessage>Int. LD MOU must be between 0 and 10.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Int_Roaming_MB_Restriction</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( AND(Type_of_Usage__c =&apos;Int. Roaming MB&apos;,OR(Avg_Per_User__c &lt;0,Avg_Per_User__c &gt; 1)) , true, false)</errorConditionFormula>
+        <errorMessage>Int. Roaming MB must be between 0 and 1.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Int_Roaming_MOU_Minutes_Restriction</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( AND(Type_of_Usage__c =&apos;Int. Roaming MOU&apos;,OR(Avg_Per_User__c &lt;0,Avg_Per_User__c &gt; 5)) , true, false)</errorConditionFormula>
+        <errorMessage>Int. Roaming MOU must be between 0 and 5.</errorMessage>
+    </validationRules>
+</CustomObject>

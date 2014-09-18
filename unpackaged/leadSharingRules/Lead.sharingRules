@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LeadSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>L</fullName>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>Industry</field>
+            <operation>equals</operation>
+            <value>Apparel</value>
+        </criteriaItems>
+        <leadAccessLevel>Edit</leadAccessLevel>
+        <name>L</name>
+    </criteriaBasedRules>
+    <ownerRules>
+        <fullName>LL</fullName>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+        <leadAccessLevel>Read</leadAccessLevel>
+        <name>L</name>
+    </ownerRules>
+</LeadSharingRules>

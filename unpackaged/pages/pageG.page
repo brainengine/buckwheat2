@@ -1,0 +1,7 @@
+<apex:page title="Damn" cache="false" rendered="false" setup="false" sidebar="false" showHeader="false" standardStylesheets="false">
+<!-- Begin Default Content REMOVE THIS -->
+<h1>Congratulations</h1>
+This is your new Apex Page: pageG
+<!-- End Default Content REMOVE THIS -->
+<b>Hello World!</b>
+</apex:page>

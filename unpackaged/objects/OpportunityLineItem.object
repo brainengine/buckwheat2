@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddProduct</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChoosePricebook</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EditAllProduct</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>BB_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>BB Quantity</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Click_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>Click URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>Device__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Device</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Opportunity Product (Device)</relationshipLabel>
+        <relationshipName>Opportunity_Product</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Discount</fullName>
+    </fields>
+    <fields>
+        <fullName>Discount__c</fullName>
+        <externalId>false</externalId>
+        <label>Discount</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Evenmore_for_BIZ_Pool_Calculation__c</fullName>
+        <externalId>false</externalId>
+        <formula>((220 + (40 * ( Quantity -5))) / Quantity)</formula>
+        <label>Evenmore for BIZ Pool Calculation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Feature__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Feature</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Opportunity Feature</relationshipLabel>
+        <relationshipName>Opportunity_Feature</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Handset_Subsidy_Amount2__c</fullName>
+        <externalId>false</externalId>
+        <formula>PricebookEntry.Product2.Minimum_Price__c - UnitPrice</formula>
+        <label>Handset Subsidy Amount2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Handset_Subsidy_Amount__c</fullName>
+        <description>DO NOT DELETE THIS IS FOR ROLLUP SUMMARY ON OPPORTUNITY</description>
+        <externalId>false</externalId>
+        <label>Handset Subsidy Amount</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Image__c</fullName>
+        <externalId>false</externalId>
+        <label>Image</label>
+        <length>25</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsUpgrade__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>IsUpgrade</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Promo_Code__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Promo Code</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Loss__c</fullName>
+        <externalId>false</externalId>
+        <label>Loss</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Minimum_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Minimum Price</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Mix__c</fullName>
+        <externalId>false</externalId>
+        <label>Mix %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Non_Discountable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Non Discountable</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OEM__c</fullName>
+        <externalId>false</externalId>
+        <label>OEM</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Alcatel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dell</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HTC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Huawei</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nokia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RIM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Samsung</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SB_COB Dell</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SB_COB HTC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SB_COB Huawei</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SB_COB LG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SB_COB Nokia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SB_COB RIM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SB_COB Samsung</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SB_COB ZTE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ZTE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>h</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>OpportunityId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PHP_CCPU_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( PricebookEntry.Product2.SOC__c  = &quot;PHP799&quot;,  ListPrice -3.60,
+IF(PricebookEntry.Product2.SOC__c = &quot;PHP479&quot;, ListPrice -1.92,0))</formula>
+        <label>PHP CCPU Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Percent__c</fullName>
+        <externalId>false</externalId>
+        <label>Percent</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Price_Override__c</fullName>
+        <externalId>false</externalId>
+        <label>Price Override</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Product2Id</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Product_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Category</label>
+        <length>55</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Cost__c</fullName>
+        <externalId>false</externalId>
+        <formula>PricebookEntry.Product2.Cost__c</formula>
+        <label>Product Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Product_Family__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Device</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rate</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Feature</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>License</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Accessory</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Product_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mobile Broadband</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Smartphone</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Phone First</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Any Phone</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>License</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SIM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Quantity</fullName>
+    </fields>
+    <fields>
+        <fullName>Rate_Plan_Type_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(PricebookEntry.Product2.Rate_Plan_Type__c)</formula>
+        <label>Rate Plan Type 2</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rate_Plan_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Rate Plan Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Voice Only</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Data Only</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Both Data and Voice</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Rate__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Rate</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Opportunity Rate</relationshipLabel>
+        <relationshipName>Opportunity_Rate</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Remorse_and_Warranty_Total_Device__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quantity *  Remorse_and_Warranty_per_device__c</formula>
+        <label>Remorse and Warranty Total Device</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Remorse_and_Warranty_Total_Rollup__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>DO NOT DELETE USED FOR ROLLUP PURPOSES.</description>
+        <externalId>false</externalId>
+        <label>Remorse and Warranty Total (Rollup)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Remorse_and_Warranty_per_device__c</fullName>
+        <externalId>false</externalId>
+        <label>Remorse and Warranty Per Device</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Rep_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Rep Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SF_Parent_Bundle_OLI_Discount__c</fullName>
+        <externalId>false</externalId>
+        <label>SF Parent Bundle OLI Discount</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>SF_Parent_Bundle_OLI_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>SF Parent Bundle OLI Id</label>
+        <length>25</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SF_Parent_Bundle_OLI_Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>SF Parent Bundle OLI Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SOC_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>SOC Code</label>
+        <length>25</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ServiceDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Standard_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Standard Price</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Subtotal</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Total_Costs__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Cost__c  *  Quantity</formula>
+        <label>Total Costs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Handset_Subsidy__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+ISPICKVAL( Product_Family__c , &quot;Device&quot;), Total_Costs__c - TotalPrice, 0)</formula>
+        <label>Total Handset Subsidy</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>UnitPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Value_Plan__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Value_Plan</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>index__c</fullName>
+        <externalId>false</externalId>
+        <label>index</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <validationRules>
+        <fullName>Only_1_Family_Allowance</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( Product2.ProductCode  = &quot;Family Allowance&quot;,  Quantity &gt;1)</errorConditionFormula>
+        <errorMessage>You can only have Family Allowance for one (1) line.  Please revise and save again.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Only_1_I_Analyst</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(Product2.ProductCode = &quot;I-Analyst&quot;,  Quantity &gt;1)</errorConditionFormula>
+        <errorMessage>You can only have the I-Analyst feature for one (1) line.  Please revise and save again.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Manage_Products</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Manage Products</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/DARTWizard?id={!Opportunity.Id}</url>
+    </webLinks>
+</CustomObject>

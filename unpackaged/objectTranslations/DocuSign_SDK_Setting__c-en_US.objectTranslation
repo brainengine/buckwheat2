@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DocuSign SDK Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DocuSign SDK Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- Use https://demo.docusign.net/ for developer accounts. --></help>
+        <label><!-- DocuSign API URL --></label>
+        <name>DocuSign_API_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Account Email --></label>
+        <name>DocuSign_Account_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Account Id --></label>
+        <name>DocuSign_Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Account Password --></label>
+        <name>DocuSign_Account_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Account Username --></label>
+        <name>DocuSign_Account_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Email Blurb --></label>
+        <name>DocuSign_Email_Blurb__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Email Subject --></label>
+        <name>DocuSign_Email_Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Integrator Key --></label>
+        <name>DocuSign_Integrator_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Sender Name --></label>
+        <name>DocuSign_Sender_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Template Id --></label>
+        <name>DocuSign_Template_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

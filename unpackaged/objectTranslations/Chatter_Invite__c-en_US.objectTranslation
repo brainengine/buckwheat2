@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Chatter Invite</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Chatter Invites</value>
+    </caseValues>
+    <fields>
+        <label><!-- Record ID --></label>
+        <name>Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender --></label>
+        <name>Sender__c</name>
+        <relationshipLabel><!-- Chatter Invites --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

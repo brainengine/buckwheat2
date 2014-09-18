@@ -1,0 +1,24 @@
+<apex:page controller="DocusignSimulatorController">
+<apex:form id="theForm">
+		<apex:pageBlock title="Docusign Simulator" id="editUserDetail">
+             <apex:pageMessages />
+             <apex:pageBlockButtons id="editButtons" location="bottom">
+               <apex:commandButton id="save" value="Send" action="{!execute}" reRender="responseOutput,envSection" />
+			<!--<apex:commandButton id="getStatus" value="Status" action="{!executeB}" reRender="responseOutput" />-->
+			<apex:commandButton id="getStatusR" value="Get Status" action="{!executeC}" reRender="responseOutput" />
+			<apex:commandButton id="getStatuses" value="Get Statuses" action="{!GetPeople}" reRender="responseOutput" />
+			<apex:commandButton id="getStatusess" value="Get Env Statuses" action="{!GetEnvelopes}" reRender="responseOutput" />
+             </apex:pageBlockButtons>
+             <apex:pageBlockSection id="contactSection" columns="1" title="Contact Information" collapsible="false">
+                 <apex:inputText id="fldContactId" value="{!contactId}"/>
+             </apex:pageBlockSection>
+			 <apex:pageBlockSection id="envSection" columns="1" title="Envelope Information" collapsible="false">
+                 <apex:inputText id="fldEnvId" value="{!envId}"/>
+             </apex:pageBlockSection>
+			 <br/><br/>
+			 <apex:outputPanel id="responseOutput" title="Output Log">
+				<apex:outputText value=" {!response}" escape="false"/>
+			</apex:outputPanel>
+        </apex:pageBlock>       
+	</apex:form>
+</apex:page>

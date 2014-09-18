@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>Settings for using the DocuSign REST API.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>DocuSign_API_URL__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Use https://demo.docusign.net/ for developer accounts.</inlineHelpText>
+        <label>DocuSign API URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>DocuSign_Account_Email__c</fullName>
+        <description>DocuSign Account email address created at http://www.docusign.com/developer-center</description>
+        <externalId>false</externalId>
+        <label>DocuSign Account Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocuSign_Account_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>DocuSign Account Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocuSign_Account_Password__c</fullName>
+        <description>Password for account created at http://www.docusign.com/developer-center</description>
+        <externalId>false</externalId>
+        <label>DocuSign Account Password</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocuSign_Account_Username__c</fullName>
+        <externalId>false</externalId>
+        <label>DocuSign Account Username</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocuSign_Email_Blurb__c</fullName>
+        <externalId>false</externalId>
+        <label>DocuSign Email Blurb</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocuSign_Email_Subject__c</fullName>
+        <externalId>false</externalId>
+        <label>DocuSign Email Subject</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocuSign_Integrator_Key__c</fullName>
+        <description>Integrator key created at http://www.docusign.com/developer-center</description>
+        <externalId>false</externalId>
+        <label>DocuSign Integrator Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocuSign_Sender_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>DocuSign Sender Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DocuSign_Template_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>DocuSign Template Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>DocuSign SDK Settings</label>
+</CustomObject>

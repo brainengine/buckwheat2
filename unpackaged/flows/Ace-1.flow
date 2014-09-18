@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Ace</label>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>AAA</name>
+        <label>AAA</label>
+        <locationX>230</locationX>
+        <locationY>146</locationY>
+        <connector>
+            <targetReference>aa</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <stringValue>ACME, INC.</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordCreates>
+    <screens>
+        <name>aa</name>
+        <label>aa</label>
+        <locationX>485</locationX>
+        <locationY>142</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+    </screens>
+</Flow>

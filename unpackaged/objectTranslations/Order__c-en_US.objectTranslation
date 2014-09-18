@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Order</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Orders</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Delivery Options --></label>
+        <name>Delivery_Options__c</name>
+        <picklistValues>
+            <masterLabel>2 Business Days</masterLabel>
+            <translation><!-- 2 Business Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Business Days</masterLabel>
+            <translation><!-- 3 Business Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Next Business Day</masterLabel>
+            <translation><!-- Next Business Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Day</masterLabel>
+            <translation><!-- Same Day --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Total --></label>
+        <name>Order_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- Amends the purchase order with terms of training. --></help>
+        <label><!-- Training Included --></label>
+        <name>Training_Included__c</name>
+    </fields>
+    <fields>
+        <help><!-- Adds text to the purchase order contract related to warranty conditions. --></help>
+        <label><!-- Warranty Included --></label>
+        <name>Warranty_Included__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Preview_Order --></label>
+        <name>Preview_Order</name>
+    </webLinks>
+</CustomObjectTranslation>

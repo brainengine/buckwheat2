@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>r3r3rrr3</description>
+    <label>333</label>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>X22</name>
+        <label>22</label>
+        <locationX>343</locationX>
+        <locationY>178</locationY>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <stringValue>SSSSSSSSSS</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordCreates>
+    <steps>
+        <name>X111</name>
+        <label>111</label>
+        <locationX>99</locationX>
+        <locationY>167</locationY>
+        <connectors>
+            <targetReference>X22</targetReference>
+        </connectors>
+    </steps>
+</Flow>

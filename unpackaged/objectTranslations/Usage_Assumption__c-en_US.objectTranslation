@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Usage Assumption</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Usage Assumptions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Avg Per User --></label>
+        <name>Avg_Per_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- B2B Standard --></label>
+        <name>B2B_Standard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Usage Assumptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type of Usage --></label>
+        <name>Type_of_Usage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage Notes --></label>
+        <name>Usage_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Billable MOU (Peak Minutes) must be between 0 and 500. --></errorMessage>
+        <name>Billable_MOU_Peak_Minutes_Restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Domestic MOU (All Minutes) must be greater than 300 and less than 1200. --></errorMessage>
+        <name>Domestic_MOU_All_Minutes_Restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Domestic WebConnect MB must be 30% from average. --></errorMessage>
+        <name>Domestic_WebConnect_MB</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Int. LD MOU must be between 0 and 10. --></errorMessage>
+        <name>Int_LD_MOU_Restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Int. Roaming MB must be between 0 and 1. --></errorMessage>
+        <name>Int_Roaming_MB_Restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Int. Roaming MOU must be between 0 and 5. --></errorMessage>
+        <name>Int_Roaming_MOU_Minutes_Restriction</name>
+    </validationRules>
+</CustomObjectTranslation>

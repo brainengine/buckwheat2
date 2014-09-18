@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AVD Discount (%) --></label>
+        <name>AVD_Discount_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AVD Discount (%) --></label>
+        <name>AVD_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- AVD Final (%) --></label>
+        <name>AVD_Final__c</name>
+    </fields>
+    <fields>
+        <label><!-- AVD Type --></label>
+        <name>AVD_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiered</masterLabel>
+            <translation><!-- Tiered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Activation or Loyalty Credit Per Line --></label>
+        <name>Activation_or_Loyalty_Credit_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a percent field --></help>
+        <label><!-- Adjust Commission Payout (%) --></label>
+        <name>Adjust_Commission_Payout__c</name>
+    </fields>
+    <fields>
+        <label><!-- BDM Contract Type --></label>
+        <name>BDM_Contract_Type__c</name>
+        <picklistValues>
+            <masterLabel>BSA/MSCA - A</masterLabel>
+            <translation><!-- BSA/MSCA - A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BSA/MSCA - B</masterLabel>
+            <translation><!-- BSA/MSCA - B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BSA/MSCA - C</masterLabel>
+            <translation><!-- BSA/MSCA - C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Only</masterLabel>
+            <translation><!-- Employee Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSA/WSCA</masterLabel>
+            <translation><!-- GSA/WSCA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business Partner Sale or Cosell Deal? --></label>
+        <name>Business_Partner_Sale_or_Cosell_Deal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission --></label>
+        <name>Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Term (Months) --></label>
+        <name>Contract_Term_Months__c</name>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation><!-- 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36</masterLabel>
+            <translation><!-- 36 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Type --></label>
+        <name>Contract_Type__c</name>
+        <picklistValues>
+            <masterLabel>APA</masterLabel>
+            <translation><!-- APA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APA-IL Only</masterLabel>
+            <translation><!-- APA-IL Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation><!-- Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BSA</masterLabel>
+            <translation><!-- BSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BSA - EAP</masterLabel>
+            <translation><!-- BSA - EAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSA</masterLabel>
+            <translation><!-- GSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSA - EAP</masterLabel>
+            <translation><!-- GSA - EAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grandfathered</masterLabel>
+            <translation><!-- Grandfathered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCSA</masterLabel>
+            <translation><!-- MCSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSCA-EAP</masterLabel>
+            <translation><!-- MSCA-EAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY OGS</masterLabel>
+            <translation><!-- NY OGS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller</masterLabel>
+            <translation><!-- Reseller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMO T&amp;C&apos;s</masterLabel>
+            <translation><!-- TMO T&amp;C&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas DIR</masterLabel>
+            <translation><!-- Texas DIR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University- NO CONTRACT</masterLabel>
+            <translation><!-- University- NO CONTRACT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WSCA</masterLabel>
+            <translation><!-- WSCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WSCA - EAP</masterLabel>
+            <translation><!-- WSCA - EAP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery/Installation Status --></label>
+        <name>DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation><!-- Yet to begin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discount (%) --></label>
+        <name>Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engineering Costs --></label>
+        <name>Engineering_Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Pooling Lines --></label>
+        <name>Existing_Pooling_Lines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final AVD --></label>
+        <name>Final_AVD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Approver --></label>
+        <name>Final_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Commission Amount --></label>
+        <name>Final_Commission_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final transition to Account Manager --></label>
+        <name>Final_hand_off_to_Account_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fixed/Fast Start AVD (%) --></label>
+        <name>Fixed_Fast_Start_AVD_Percent__c</name>
+    </fields>
+    <fields>
+        <help><!-- SIM Total x Probability % --></help>
+        <label><!-- Forecast SIMs --></label>
+        <name>Forecast_SIMs__c</name>
+    </fields>
+    <fields>
+        <label><!-- GFB - $/MB --></label>
+        <name>GFB_MB__c</name>
+    </fields>
+    <fields>
+        <label><!-- GFB - $/MOU --></label>
+        <name>GFB_MOU__c</name>
+    </fields>
+    <fields>
+        <label><!-- GFB MRC After --></label>
+        <name>GFB_MRC_After__c</name>
+    </fields>
+    <fields>
+        <label><!-- GFB MRC --></label>
+        <name>GFB_MRC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gain Verbal commitment for next steps --></label>
+        <name>Gain_Verbal_commitment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gained Verbal Commitment --></label>
+        <name>Gained_Verbal_Commitment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Global Discount (%) --></label>
+        <name>Global_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- IDC MRC --></label>
+        <name>IDC_MRC__c</name>
+    </fields>
+    <fields>
+        <label><!-- IDR - $/MB --></label>
+        <name>IDR_MB__c</name>
+    </fields>
+    <fields>
+        <label><!-- IDR - $/MOU --></label>
+        <name>IDR_MOU__c</name>
+    </fields>
+    <fields>
+        <label><!-- IDR MRC After --></label>
+        <name>IDR_MRC_After__c</name>
+    </fields>
+    <fields>
+        <label><!-- IDR MRC --></label>
+        <name>IDR_MRC__c</name>
+    </fields>
+    <fields>
+        <label><!-- IM Manager Approved --></label>
+        <name>IM_Manager_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- IM and AM Review Meeting --></label>
+        <name>IM_and_AM_Review_Meeting__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used by the INPUT Connector. This field defines the INPUT estimated Opportunity award date. --></help>
+        <label><!-- Award Date (INPUT Estimate) --></label>
+        <name>INPT_Award_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used by the INPUT Connector. This field defines the INPUT Opportunity competition type. Examples of competition types are: &quot;8(a) Set-Aside&quot; and &quot;Full and Open&quot;. --></help>
+        <label><!-- Competition_Type --></label>
+        <name>INPT_Competition_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used by the INPUT Connector. This field defines the INPUT Opportunity contract type. An example of a contract type is: &quot;Cost Plus Award Fee&quot;. --></help>
+        <label><!-- Contract_Type --></label>
+        <name>INPT_Contract_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used by the INPUT Connector. This field defines the INPUT Opportunity contract duration in terms of base and option years and months. --></help>
+        <label><!-- Duration --></label>
+        <name>INPT_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Promo Code --></label>
+        <name>Is_Promo_Code__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Referral</masterLabel>
+            <translation><!-- Partner Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Inquiry</masterLabel>
+            <translation><!-- Phone Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchased List</masterLabel>
+            <translation><!-- Purchased List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MRC Overage Adjust --></label>
+        <name>MRC_Overage_Adjust__c</name>
+    </fields>
+    <fields>
+        <label><!-- MRC --></label>
+        <name>MRC__c</name>
+    </fields>
+    <fields>
+        <label><!-- MRC for AVD --></label>
+        <name>MRC_for_AVD__c</name>
+    </fields>
+    <fields>
+        <label><!-- MVS --></label>
+        <name>MVS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Competitor(s) --></label>
+        <name>MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market Invest per Line --></label>
+        <name>Market_Invest_per_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Months of Deployment --></label>
+        <name>Months_of_Deployment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operating Margin (%) --></label>
+        <name>Operating_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payback Months --></label>
+        <name>Payback_Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promo Code --></label>
+        <name>Promo_Code__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the title of the sales rep from the drop down --></help>
+        <label><!-- Rep Title --></label>
+        <name>Rep_Title__c</name>
+        <picklistValues>
+            <masterLabel>ARSB/ISRSB</masterLabel>
+            <translation><!-- ARSB/ISRSB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BDM</masterLabel>
+            <translation><!-- BDM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BPSR</masterLabel>
+            <translation><!-- BPSR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GAM_GOV</masterLabel>
+            <translation><!-- GAM_GOV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GAM_MNC</masterLabel>
+            <translation><!-- GAM_MNC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAM</masterLabel>
+            <translation><!-- SAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBDM</masterLabel>
+            <translation><!-- SBDM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>StageName</name>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation><!-- Closed Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Won</masterLabel>
+            <translation><!-- Closed Won --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Id. Decision Makers</masterLabel>
+            <translation><!-- Id. Decision Makers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Analysis</masterLabel>
+            <translation><!-- Needs Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiation/Review</masterLabel>
+            <translation><!-- Negotiation/Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perception Analysis</masterLabel>
+            <translation><!-- Perception Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal/Price Quote</masterLabel>
+            <translation><!-- Proposal/Price Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospecting</masterLabel>
+            <translation><!-- Prospecting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation><!-- Qualification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value Proposition</masterLabel>
+            <translation><!-- Value Proposition --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tenure Modification --></label>
+        <name>Tenure_Modification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tenure --></label>
+        <name>Tenure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>TrackingNumber__c</name>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Existing Customer - Downgrade</masterLabel>
+            <translation><!-- Existing Customer - Downgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing Customer - Replacement</masterLabel>
+            <translation><!-- Existing Customer - Replacement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing Customer - Upgrade</masterLabel>
+            <translation><!-- Existing Customer - Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Customer</masterLabel>
+            <translation><!-- New Customer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Waived ETF (%) --></label>
+        <name>Waived_ETF_Percent__c</name>
+    </fields>
+    <layouts>
+        <layout>Opportunity (Marketing) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Contract Details --></label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Master --></label>
+        <name>Master</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Promo Codes --></label>
+        <name>Promo_Codes</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- DeliveryStatus --></label>
+        <name>DeliveryStatus</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Edit --></label>
+        <name>Mass_Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Wizard --></label>
+        <name>Wizard</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Send_to_EchoSign --></label>
+        <name>echosign_dev1__Conga_Send_to_EchoSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_EchoSign --></label>
+        <name>echosign_dev1__Send_to_EchoSign</name>
+    </webLinks>
+</CustomObjectTranslation>

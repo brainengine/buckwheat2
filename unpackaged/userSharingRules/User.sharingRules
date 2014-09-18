@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>user5</fullName>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>Extension</field>
+            <operation>equals</operation>
+            <value>999</value>
+        </criteriaItems>
+        <name>user5</name>
+        <userAccessLevel>Edit</userAccessLevel>
+    </criteriaBasedRules>
+    <membershipRules>
+        <fullName>user33</fullName>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+        <name>user33</name>
+        <userAccessLevel>Edit</userAccessLevel>
+    </membershipRules>
+</UserSharingRules>
